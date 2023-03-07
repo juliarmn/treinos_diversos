@@ -1,0 +1,12 @@
+>>IDENTIFICATION DIVISION: identifica o programa->inicia o código.
+>>PROGRAM-ID: nome do programa para se referir a ele depois.
+[OPCIONAIS]
+>>AUTHOR: nome do dev.
+>>INSTALLATION: nome da empresa ou local de geração do programa.
+>>DATE-WRITTEN: data do programa.
+>>DATE-COMPILED: data de compilação do programa.
+>>SECURITY: comentários sobre a segurança do programa e seus arquivos.
+>>SECURITY: comentários sobre adicionais.
+*: inicia um comentário
+Cuidado com as colunas e espaços.
+Tudo termina com um .
