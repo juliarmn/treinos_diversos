@@ -41,3 +41,12 @@ reservadas)
 Colunas 12 a 72: área B (instruções cobol)
 Colunas 73 a 80: área de comentário
 *______________________________________________________________________________
+Divisões do COBOL:
+Identification Division: dados don programa
+Enviroment Division: configuration e input-out-put
+Data Division: file, working-storage, screen e report
+Procedure dividion: section e parágrafos
+
+*A Data Division tem o program-id (nome para referir), autor, etc.
+*A Data identifica o programa e proporciona informações documentais.
+
