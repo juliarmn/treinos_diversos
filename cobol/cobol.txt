@@ -50,4 +50,24 @@ Procedure dividion: section e parágrafos
 *A Data Division tem o program-id (nome para referir), autor, etc.
 *A Data identifica o programa e proporciona informações documentais.
 *______________________________________________________________________________
+WORKING-STORAGE SECTION:
+Seção utilizada para definir as variáveis.
+ITENS DE DRUPO: Podem ser subdivididos em outros grupos ou elementares.
+ITENS ELEMENTARES: Não podem ser subdivididos.
 
+01: Definem os itens de grupo.
+02 a 49: Definem itens de grupo/elementares subordinado a outro item.
+77: itens independentes.
+88: Cria variáveisdo tipo cosntante ou carga de valores possíveis.
+*THRU: intervalo numérico
+88: Também usado como valor buleano.
+*_______________________________________________________________________________
+TIPOS DE VARIÁVEIS:
+Alfabético: 77 NOME PIC A(10)
+Alfanumérico: 03 ENDERECO PIC X(6)
+Numérico: 77 VALOR PIC 9(12)V99 (trabalha com casas decimais, 2 casas decimais)
+*Dos 12, 2 são decimais (exemplo acima)
+Numérico com sinal: 77 VALOR PIC S9(10)V99
+Decimal compactado: 77 VALOR PIC S9(10)V99 COMP-3 -> armazena só o que usou (as casas)
+Binário: 77 VALOR PIC S9(04) COMP. -> binário sem ser decimal
+*_________________________________________________________________________________
