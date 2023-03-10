@@ -8,7 +8,6 @@
         WORKING-STORAGE SECTION. 
         77 NOME PIC X(30).
       * 77 -> itens independentes
-      * PIC Z suprime os zeros a esquerda.
         PROCEDURE DIVISION.
         MAIN-PROCEDURE.
            DISPLAY "Digite o seu nome"

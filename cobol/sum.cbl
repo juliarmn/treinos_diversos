@@ -10,6 +10,7 @@
       * o 01, 02, 03 é o tamanho do número.
       * VALUE ZEROS. -> inicia como 0.
       * 99 = 9(2).
+      * PIC Z suprime os zeros a esquerda.
         PROCEDURE DIVISION.
         DIS.
            DISPLAY "Insira o primeiro valor: ".
