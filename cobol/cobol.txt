@@ -49,4 +49,5 @@ Procedure dividion: section e parágrafos
 
 *A Data Division tem o program-id (nome para referir), autor, etc.
 *A Data identifica o programa e proporciona informações documentais.
+*______________________________________________________________________________
 
