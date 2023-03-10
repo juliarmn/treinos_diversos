@@ -70,4 +70,15 @@ Numérico: 77 VALOR PIC 9(12)V99 (trabalha com casas decimais, 2 casas decimais)
 Numérico com sinal: 77 VALOR PIC S9(10)V99
 Decimal compactado: 77 VALOR PIC S9(10)V99 COMP-3 -> armazena só o que usou (as casas)
 Binário: 77 VALOR PIC S9(04) COMP. -> binário sem ser decimal
-*_________________________________________________________________________________
+*________________________________________________________________________________
+MÁSCARAS:
+Formato de edição
+PIC 999.999.999, 99
+PIC ZZZ.ZZZ.ZZ9,99
+PIC ---.---.--9,99
+PIC $$$.$$$.$$9,99
+PIC ***.***.**9,99
+PIC 999.999.999,99CR
+PIC 999.999.999.99DB
+PIC 999B999B999
+*___________________________________________________________________________________
