@@ -10,3 +10,24 @@
 *: inicia um comentário
 Cuidado com as colunas e espaços.
 Tudo termina com um .
+*TUDO ACIMA É O INDENTIFICATION DIVISION: usado para identificar o programa
+*__________________________________________________________________________
+Temos também o Environment dividion: inputs e outputs.
+
+No environment temos configuration section: imformação sobre o sistema onde 
+o programa é escrito e executado.
+
+Já o input-output section é onde temos as informações usadas nos arquivos do
+programa.
+*___________________________________________________________________________
+DATA DIVISION: Definição das variáveis usadas ao longo do programa.
+->File section: define a estrutura de arquivos que usaremos.
+->Working-storage section: declarar as variáveis temporárias.
+->Local-storage section: como a section anterior, porém as variáveis serão 
+inicializadas sempre que o programa iniciar.
+->Linkage section: descrever os nomes de dados recebidos por output.
+*____________________________________________________________________________
+PROCEDURE DIVISION: realizar tarefas lógicas, como cálculo. 
+>>IMPORTANTE: sempre encerre o programa com STOP RUN.
+*____________________________________________________________________________
+Toda string encerra com um separador: espaço, vírgula, ponto, etc.
