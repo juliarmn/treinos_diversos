@@ -31,3 +31,13 @@ PROCEDURE DIVISION: realizar tarefas lógicas, como cálculo.
 >>IMPORTANTE: sempre encerre o programa com STOP RUN.
 *____________________________________________________________________________
 Toda string encerra com um separador: espaço, vírgula, ponto, etc.
+*____________________________________________________________________________
+Regra de codificação: áreas/colunas
+Colunas de 1 a 6: área de numeração (configuração do editor)
+coluna 7: área de identificação (-: continuidade do texto, *: comentário, /: 
+salto de página nos relatórios de compilação)
+Colunas 8 a 11: área A (Nome de Divisões, Seções e Parágrafos : palavras 
+reservadas)
+Colunas 12 a 72: área B (instruções cobol)
+Colunas 73 a 80: área de comentário
+*______________________________________________________________________________
