@@ -1,0 +1,1 @@
+Códigos para explorar a linguagem multiparadigma lisp, especialmente a parte funcional, com base nos aprendizados de aula (linguagens de programação).
